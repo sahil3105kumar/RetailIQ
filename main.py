@@ -38,7 +38,7 @@ def main() -> int:
 
     feature_engineer = RetailIQFeatureEngineer(
         project_root=config.project_root,
-        processed_dir=config.processed_dir,
+        processed_dir=config.processed_dir, #type: ignore
         log_file=config.log_file,
         overwrite=config.overwrite,
     )

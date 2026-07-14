@@ -15,7 +15,7 @@ RetailIQ is a production-oriented business intelligence project that simulates t
 
 1. Place the raw Olist CSV files in [data/raw](data/raw).
 2. Install dependencies from [requirements.txt](requirements.txt).
-3. Run the pipeline with `python main.py --project-root /home/sahil/RetailIQ --overwrite`.
+3. Run the pipeline with `python main.py --project-root /home/user/RetailIQ --overwrite`.
 4. Review the cleaned outputs in [data/processed](data/processed).
 5. Open the EDA notebook in [notebooks/retailiq_eda.ipynb](notebooks/retailiq_eda.ipynb).
 
